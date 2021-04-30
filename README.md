@@ -11,14 +11,14 @@ Contact: Takuya Goto (goto@cv.nitech.ac.jp)
 
 ### Connectionist Temporal Classification 
 <p align="center">
-<img src='imgs/ctc.png' width="400px"/>
+<img src='imgs/ctc.png' width="1000px"/>
 
 Connectionist Temporal Classification(CTC) is Loss Function used in speech recognition and time series data. When estimating the label probability for each time from each unit of the LSTM in chronological order, the probability of including a blank character representing unvoiced sound is estimated.
 
 
 ### CTC for Human Action Prediction
 <p align="center">
-<img src='imgs/action.png' width="1000px"/>
+<img src='imgs/action.png' width="100px"/>
 An overview of our Proposed Gated Spatio-Temporal Energy Graph. Given an input instance (a video clip), we predict the output relationships (e.g., {**monkey, creep down, car**}, etc.,) by reasoning over a fully-connected spatio-temporal graph with nodes **S** (Subject),**P** (Predicate) and **O** (Object). Instead of assuming a non-gated (i.e., predefined or globally-learned) pairwise energy function, we explore the use of gated energy functions (i.e., conditioned on the specific visual observation).
 <img src='imgs/ctc_action.png' width="1000px"/>
 
