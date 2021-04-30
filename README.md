@@ -21,7 +21,9 @@ Connectionist Temporal Classification(CTC) is Loss Function used in speech recog
 <img src='imgs/action.png' width="500px"/>
 <p align="center">
 <img src='imgs/ctc_action.png' width="1000px"/>   
-An overview of our Proposed Gated Spatio-Temporal Energy Graph. Given an input instance (a video clip), we predict the output relationships (e.g., {**monkey, creep down, car**}, etc.,) by reasoning over a fully-connected spatio-temporal graph with nodes **S** (Subject),**P** (Predicate) and **O** (Object). Instead of assuming a non-gated (i.e., predefined or globally-learned) pairwise energy function, we explore the use of gated energy functions (i.e., conditioned on the specific visual observation).
+
+Unlike speech recognition, there is no "nothing" state in a person's actions. So, I designed no blank CTC. In addition, since the action recognition of a person is multi-labeled, the design is suitable for it.
+
 
 ## Usage
 
