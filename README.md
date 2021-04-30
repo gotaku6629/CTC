@@ -3,7 +3,7 @@
 
 # No Blank Connectionist Temporal Classification
 
-Pytorch implementation for [Connectionist Temporal Classification](https://www.cs.toronto.edu/~graves/icml_2006.pdf), but my model does not consider unvoicedness.
+Pytorch implementation for [Connectionist Temporal Classification](https://www.cs.toronto.edu/~graves/icml_2006.pdf), but my model does not consider unvoicedness and deals with multi labels.
 
 Contact: Takuya Goto (goto@cv.nitech.ac.jp)
 
