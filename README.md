@@ -46,6 +46,7 @@ Unlike speech recognition, there is no "nothing" state in a person's actions. So
 ~~~~
 python3 CTC_exe.py
 ~~~~
+   
 
 ### Acknowledgement
 A large portion of the code comes from the [ctc](https://github.com/vadimkantorov/ctc) and [ImageNet](https://github.com/pytorch/examples/tree/master/imagenet) repo.
