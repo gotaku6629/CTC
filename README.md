@@ -2,7 +2,6 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)  
 
 # No Blank Connectionist Temporal Classification
-
 Pytorch implementation for [Connectionist Temporal Classification](https://www.cs.toronto.edu/~graves/icml_2006.pdf), but my model does not consider unvoicedness and deals with multi labels.
 
 Contact: Takuya Goto (goto@cv.nitech.ac.jp)
